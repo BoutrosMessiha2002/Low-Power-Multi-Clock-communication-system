@@ -1,0 +1,338 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UART_RX
+vdata_sampling
+Z1 !s100 Xaffae=I5]T@`O?^gNcjk0
+Z2 IE<dzR6gBzVRZ7^mG<Ofc92
+Z3 VoQ=@5OLXe?j9QghDEDZ5g1
+Z4 dD:\UART_MODULE
+Z5 w1727635942
+Z6 8D:/UART_MODULE/RX_data_sampling.v
+Z7 FD:/UART_MODULE/RX_data_sampling.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_data_sampling.v|
+Z10 o-work work -O0
+Z11 !s108 1727638837.832000
+Z12 !s107 D:/UART_MODULE/RX_data_sampling.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdeserializer
+Z13 !s100 PSJZlXC4^>YYZUSj<DLXL0
+Z14 IAP3dafH9cdZ@mHJ`PZ@fM1
+Z15 VZJ=3GOGWN:La]lOiRdQld1
+R4
+Z16 w1727635957
+Z17 8D:/UART_MODULE/RX_deserializer.v
+Z18 FD:/UART_MODULE/RX_deserializer.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_deserializer.v|
+R10
+Z20 !s108 1727638837.933000
+Z21 !s107 D:/UART_MODULE/RX_deserializer.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vedge_bit_counter
+Z22 !s100 14=ZnZGB1BAA`In<hWio<2
+Z23 IbeCXNRRFJJKXe6<0Gd_4K0
+Z24 Ve::[gOa_m5_eYQ=c=nl:c0
+R4
+Z25 w1727635968
+Z26 8D:/UART_MODULE/RX_edge_bit_counter.v
+Z27 FD:/UART_MODULE/RX_edge_bit_counter.v
+L0 1
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_edge_bit_counter.v|
+R10
+Z29 !s108 1727638838.039000
+Z30 !s107 D:/UART_MODULE/RX_edge_bit_counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFSM
+Z31 I8SPdP2EY3BmQhT9bW@C=Q1
+Z32 VOQjMHWYEeUa0Gz8212zN23
+R4
+Z33 w1726586272
+Z34 8D:/UART_MODULE/TX_FSM.v
+Z35 FD:/UART_MODULE/TX_FSM.v
+L0 4
+R8
+r1
+31
+R10
+Z36 n@f@s@m
+Z37 !s100 hFG14:n8S5b63V:bV3NKD1
+Z38 !s108 1726586426.277000
+Z39 !s107 D:/UART_MODULE/TX_FSM.v|
+Z40 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/TX_FSM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMUX
+Z41 !s100 MYm0i;CcU2?=i]9<QS]?I0
+Z42 II>;cH4z1dEK0a;_c@z=h^0
+Z43 V>ll]ZQOGLdA:NT<<IUVhZ0
+R4
+Z44 w1727636090
+Z45 8D:/UART_MODULE/TX_MUX.v
+Z46 FD:/UART_MODULE/TX_MUX.v
+L0 1
+R8
+r1
+31
+Z47 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/TX_MUX.v|
+R10
+Z48 n@m@u@x
+Z49 !s108 1727638838.801000
+Z50 !s107 D:/UART_MODULE/TX_MUX.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vParity_calc
+Z51 !s100 lRRWg9^T?X=HQDoK8>3Sl0
+Z52 Ih=hYZR@IG:2JGaiBmn8Yi1
+Z53 V6ETgBfSkXFo4jL>h@_4]M1
+R4
+Z54 w1727636099
+Z55 8D:/UART_MODULE/TX_Parity_calc.v
+Z56 FD:/UART_MODULE/TX_Parity_calc.v
+L0 1
+R8
+r1
+31
+Z57 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/TX_Parity_calc.v|
+R10
+Z58 n@parity_calc
+Z59 !s108 1727638838.938000
+Z60 !s107 D:/UART_MODULE/TX_Parity_calc.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparity_calc
+Z61 !s100 EEE>TSd=mclA;Q6j497jN0
+Z62 I[e[dK:looUI>WfQlWC^bR0
+Z63 VCDf3]B^a6m^HM53L0ZDeQ0
+R4
+Z64 w1726776176
+R55
+R56
+L0 1
+R8
+r1
+31
+R57
+R10
+Z65 !s108 1726776268.345000
+R60
+!i10b 1
+!s85 0
+!s101 -O0
+vparity_check
+Z66 !s100 ^Xm:bToQEOjQ1<RcbIVW[3
+Z67 IXiIdDdDW79:<UJU^_89[`2
+Z68 V7LRcOPlZ3V<:QRcIXMaW30
+R4
+Z69 w1727636008
+Z70 8D:/UART_MODULE/RX_parity_check.v
+Z71 FD:/UART_MODULE/RX_parity_check.v
+L0 1
+R8
+r1
+31
+Z72 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_parity_check.v|
+R10
+Z73 !s108 1727638838.263000
+Z74 !s107 D:/UART_MODULE/RX_parity_check.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vRX_FSM
+Z75 !s100 K9<^_S2HhHz_?UQ3:f1450
+Z76 IWR^endPS;BFNzF];ojaok0
+Z77 V<dI81@=LEozLacXE<o4AZ2
+R4
+Z78 w1727635990
+Z79 8D:/UART_MODULE/RX_FSM.v
+Z80 FD:/UART_MODULE/RX_FSM.v
+L0 1
+R8
+r1
+31
+Z81 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_FSM.v|
+R10
+Z82 n@r@x_@f@s@m
+Z83 !s108 1727638838.155000
+Z84 !s107 D:/UART_MODULE/RX_FSM.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSerializer
+Z85 !s100 kAPAd;3]Kio_TgFnm?nMF2
+Z86 I1eml<aI?;0JhKH8QjH89D0
+Z87 VZ01;Co0S^GH1061?]`ld42
+R4
+Z88 w1727636109
+Z89 8D:/UART_MODULE/TX_Serializer.v
+Z90 FD:/UART_MODULE/TX_Serializer.v
+L0 1
+R8
+r1
+31
+Z91 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/TX_Serializer.v|
+R10
+Z92 n@serializer
+!i10b 1
+!s85 0
+Z93 !s108 1727638839.053000
+Z94 !s107 D:/UART_MODULE/TX_Serializer.v|
+!s101 -O0
+vstop_check
+Z95 !s100 6?7bKelI`YKV_hfJ7aJ7z3
+Z96 IT16W6O[7E@Il^TnEMNeGf0
+Z97 V`n1YknE947zjb1Qm0d;A]2
+R4
+Z98 w1727636167
+Z99 8D:/UART_MODULE/RX_stop_check.v
+Z100 FD:/UART_MODULE/RX_stop_check.v
+L0 1
+R8
+r1
+31
+Z101 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_stop_check.v|
+R10
+Z102 !s108 1727638838.498000
+Z103 !s107 D:/UART_MODULE/RX_stop_check.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vstrt_check
+Z104 !s100 lf;i@W>4FjLGl[@4b<UZV3
+Z105 IFzkf[P4zUN2SkVI5MVN0U0
+Z106 V5ITCifKXT`ALzMUSO264O0
+R4
+Z107 w1727636166
+Z108 8D:/UART_MODULE/RX_start_check.v
+Z109 FD:/UART_MODULE/RX_start_check.v
+L0 1
+R8
+r1
+31
+Z110 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_start_check.v|
+R10
+Z111 !s108 1727638838.370000
+Z112 !s107 D:/UART_MODULE/RX_start_check.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTX_FSM
+Z113 !s100 `gm=8WKJXf[z:hPjQ]U:g1
+Z114 IObI27kD3B8TEzCIo`e80C0
+Z115 VR9ZY<GV3jf0:n5mGzf]iP1
+R4
+Z116 w1727636080
+R34
+R35
+L0 4
+R8
+r1
+31
+R40
+R10
+Z117 n@t@x_@f@s@m
+Z118 !s108 1727638838.700000
+R39
+!i10b 1
+!s85 0
+!s101 -O0
+vUART_RX_top
+Z119 !s100 D=d`jbE;MfCF[bHDB4Qj_3
+Z120 IiJnjk9hJgZRzX7Kgo7OZ40
+Z121 VLXNMgnBBMX6@iK1z8CS9i3
+R4
+Z122 w1727636051
+Z123 8D:/UART_MODULE/RX_top.v
+Z124 FD:/UART_MODULE/RX_top.v
+L0 1
+R8
+r1
+31
+Z125 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/RX_top.v|
+R10
+Z126 n@u@a@r@t_@r@x_top
+Z127 !s108 1727638838.611000
+Z128 !s107 D:/UART_MODULE/RX_top.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vUART_tb
+Z129 IQ>7YnCOWD6?dC;M@:O=B92
+Z130 VjR<F?RK8a0ES68DBF`koJ3
+R4
+Z131 w1727638836
+Z132 8D:/UART_MODULE/UART_TB.v
+Z133 FD:/UART_MODULE/UART_TB.v
+L0 2
+R8
+r1
+31
+Z134 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/UART_TB.v|
+R10
+Z135 n@u@a@r@t_tb
+Z136 !s100 DZOG1>FLYMWmof@6S<Zl:1
+Z137 !s108 1727638837.743000
+Z138 !s107 D:/UART_MODULE/UART_TB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vUART_top
+Z139 !s100 YUbS0ag<EIIfao?d?e]Ao2
+Z140 I<6G^ZU3eoD8ZKNBHQP;ZV1
+Z141 VjXQ0c4>g>lcj0[hFGm2bF3
+R4
+Z142 w1727638639
+Z143 8D:/UART_MODULE/UART_TOP.v
+Z144 FD:/UART_MODULE/UART_TOP.v
+L0 1
+R8
+r1
+31
+Z145 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/UART_TOP.v|
+R10
+Z146 n@u@a@r@t_top
+Z147 !s108 1727638837.652000
+Z148 !s107 D:/UART_MODULE/UART_TOP.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vUART_TX_top
+!i10b 1
+Z149 !s100 hh>[Z]4cLj4^mEAd0VQFh1
+Z150 I2U:>nG[[zKj_J798gl<JK2
+Z151 VS;B9i>gM9@`POh7aCZbeN1
+R4
+Z152 w1727636126
+Z153 8D:/UART_MODULE/TX_top.v
+Z154 FD:/UART_MODULE/TX_top.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1727638839.155000
+!s107 D:/UART_MODULE/TX_top.v|
+Z155 !s90 -reportprogress|300|-work|work|D:/UART_MODULE/TX_top.v|
+!s101 -O0
+R10
+Z156 n@u@a@r@t_@t@x_top
