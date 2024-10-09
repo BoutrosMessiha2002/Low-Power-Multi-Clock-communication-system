@@ -1,6 +1,6 @@
 This project consists of the following:
 
-“RTL to GDS Implementation of Low Power Configurable Multi Clock Digital System”
+“RTL to GDS Implementation of Low Power Configurable Multi Clock Digital System”(Still in progress, expected to be finished in 2 weeks or less).
 
 Description: It is responsible of receiving commands through UART receiver to do different system functions as register file reading/writing or doing some processing using ALU block 
 and send result to UART transmitter through asynchronous FIFO for handling different clock rates and avoid data loss.
