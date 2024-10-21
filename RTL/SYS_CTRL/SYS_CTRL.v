@@ -204,10 +204,10 @@ module sys_ctrl(
       if(!FIFO_FULL&&RdData_Valid)
         begin
                TX_P_DATA 	= RdData;
-					     TX_D_VLD = 1'b1;
-					     end
-					     else
-					       TX_D_VLD=1'b0;
+		TX_D_VLD = 1'b1;
+	end
+	else
+	  TX_D_VLD=1'b0;
           
    end
    
@@ -253,11 +253,11 @@ module sys_ctrl(
      ALU_FUN=stored_func;
       if(!FIFO_FULL&&OUT_Valid)
         begin
-               TX_P_DATA 	= ALU_OUT[7:0];
-					     TX_D_VLD = 1'b1;
-					     end
-					     else
-					       TX_D_VLD=1'b0;
+               TX_P_DATA = ALU_OUT[7:0];
+		TX_D_VLD = 1'b1;
+	end
+     else
+	       TX_D_VLD=1'b0;
 
     end
     
@@ -270,12 +270,12 @@ module sys_ctrl(
       if(!FIFO_FULL&&OUT_Valid)
         begin
                TX_P_DATA 	= ALU_OUT[15:8];
-					     TX_D_VLD = 1'b1;
-					     ALU_FUN=4'b1000;
-					     end
-					     else
-					       TX_D_VLD=1'b0;
-					       ALU_FUN=stored_func;
+	       TX_D_VLD = 1'b1;
+		ALU_FUN=4'b1000;
+	end
+      else
+	      TX_D_VLD=1'b0;
+	      ALU_FUN=stored_func;
     end
 
     
@@ -289,8 +289,7 @@ module sys_ctrl(
 				stored_addr <= RX_P_DATA; 
 		end
 		
-  assign addr_c= ( (current_state == RF_WR_ADD) ||
-													 (current_state == RF_RD_ADD)  );
+  assign addr_c= ( (current_state == RF_WR_ADD) || (current_state == RF_RD_ADD));
 
 endmodule
 
