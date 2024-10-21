@@ -1,0 +1,95 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+Begin Other violations...
+
+Warning: Cell U0_CLK_GATE/U0_TLATNCAX12M has constant 1 value. (TEST-505)
+
+Other violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 1
+
+-----------------------------------------------------------------
+
+1 OTHER VIOLATION
+     1 Cell is constant 1 violation (TEST-505)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  1 out of 343 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITH VIOLATIONS
+      *   1 cell has constant 1 value
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      * 342 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+  Running test coverage estimation...
+ 18120 faults were added to fault list.
+ 0            7998   5896         0/0/0    67.02%      0.01
+ 0            1342   4554         0/0/0    74.44%      0.01
+ 0            1607   2943         3/0/0    83.35%      0.01
+ 0             568   2372         6/0/1    86.51%      0.01
+ 0             649   1717        11/0/1    90.13%      0.01
+ 0             261   1452        14/0/1    91.60%      0.01
+ 0             195   1256        15/0/2    92.68%      0.02
+ 0             209   1042        18/0/3    93.86%      0.02
+ 0             211    824        23/0/3    95.07%      0.02
+ 0             110    690        28/0/4    95.81%      0.02
+ 0             130    550        34/0/4    96.58%      0.02
+ 0             117    429        38/0/5    97.25%      0.02
+ 0              93    321        48/0/5    97.85%      0.02
+ 0              60    248        58/0/5    98.26%      0.02
+ 0              63    173        67/0/6    98.67%      0.03
+ 0              57     98        75/0/6    99.09%      0.03
+ 0              50     30        90/0/6    99.47%      0.03
+ 0              19     11        90/0/7    99.57%      0.03
+ 
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           0
+ -----------------------------------------------
+ 
+
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT      17853
+ Possibly detected                PT          1
+ Undetectable                     UD        190
+ ATPG untestable                  AU         66
+ Not detected                     ND         10
+ -----------------------------------------------
+ total faults                             18120
+ test coverage                            99.57%
+ -----------------------------------------------
+  Information: The test coverage above may be inferior
+               than the real test coverage with customized
+               protocol and test simulation library.
+1
